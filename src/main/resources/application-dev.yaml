@@ -1,0 +1,15 @@
+
+##db
+
+spring:
+  datasource:
+    url: jdbc:postgresql://172.16.7.135:5432/postgres 
+    username: gpadmin
+    password: ayden
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
